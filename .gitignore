@@ -1,0 +1,24 @@
+# Local Python installs and caches
+.venv/
+.venv_old/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+# Local data and generated artifacts
+local_data/
+outputs/
+data/private/
+# Never publish credentials or machine configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+# Operating system/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+SELF_CHECK_RESULTS.json
